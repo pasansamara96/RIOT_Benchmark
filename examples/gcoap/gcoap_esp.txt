@@ -1,0 +1,437 @@
+Building application "gcoap_example" for "esp8266-esp-12x" with MCU "esp8266".
+
+"make" -C /home/pasan/RIOT/pkg/esp8266_sdk/ 
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/esp8266-esp-12x
+"make" -C /home/pasan/RIOT/boards/common/esp8266
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/esp8266
+"make" -C /home/pasan/RIOT/cpu/esp8266/freertos
+"make" -C /home/pasan/RIOT/cpu/esp8266/periph
+"make" -C /home/pasan/RIOT/cpu/esp8266/sdk
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/esp8266/source
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/spi_flash
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/util/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/src/crypto
+"make" -C /home/pasan/RIOT/cpu/esp_common
+"make" -C /home/pasan/RIOT/cpu/esp_common/esp-now
+"make" -C /home/pasan/RIOT/cpu/esp_common/freertos
+"make" -C /home/pasan/RIOT/cpu/esp_common/periph
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor/xtensa
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/mtd
+"make" -C /home/pasan/RIOT/drivers/netdev
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/div
+"make" -C /home/pasan/RIOT/sys/event
+"make" -C /home/pasan/RIOT/sys/evtimer
+"make" -C /home/pasan/RIOT/sys/fmt
+"make" -C /home/pasan/RIOT/sys/frac
+"make" -C /home/pasan/RIOT/sys/iolist
+"make" -C /home/pasan/RIOT/sys/isrpipe
+"make" -C /home/pasan/RIOT/sys/log
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/net/application_layer/gcoap
+"make" -C /home/pasan/RIOT/sys/net/application_layer/nanocoap
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/inet_csum
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/netopt
+"make" -C /home/pasan/RIOT/sys/net/gnrc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netapi
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/init_devs
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netreg
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6/echo
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/nib
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ndp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/ctx
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag/fb
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag/rb
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/iphc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/nd
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pkt
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf_static
+"make" -C /home/pasan/RIOT/sys/net/gnrc/sock
+"make" -C /home/pasan/RIOT/sys/net/gnrc/sock/udp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/transport_layer/udp
+"make" -C /home/pasan/RIOT/sys/net/link_layer/eui_provider
+"make" -C /home/pasan/RIOT/sys/net/link_layer/l2util
+"make" -C /home/pasan/RIOT/sys/net/netif
+"make" -C /home/pasan/RIOT/sys/net/netutils
+"make" -C /home/pasan/RIOT/sys/net/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/addr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/sixlowpan
+"make" -C /home/pasan/RIOT/sys/net/sock
+"make" -C /home/pasan/RIOT/sys/net/sock/async/event
+"make" -C /home/pasan/RIOT/sys/net/transport_layer/udp
+"make" -C /home/pasan/RIOT/sys/newlib_syscalls_default
+"make" -C /home/pasan/RIOT/sys/od
+"make" -C /home/pasan/RIOT/sys/posix/inet
+"make" -C /home/pasan/RIOT/sys/ps
+"make" -C /home/pasan/RIOT/sys/random
+"make" -C /home/pasan/RIOT/sys/shell
+"make" -C /home/pasan/RIOT/sys/shell/commands
+"make" -C /home/pasan/RIOT/sys/stdio_uart
+"make" -C /home/pasan/RIOT/sys/tsrb
+"make" -C /home/pasan/RIOT/sys/ztimer
+"make" -C /home/pasan/RIOT/sys/ztimer64
+esptool.py v2.4.0
+   text	   data	    bss	    dec	    hex	filename
+ 369032	   5904	  45672	 420608	  66b00	/home/pasan/RIOT/examples/gcoap/bin/esp8266-esp-12x/gcoap_example.elf
+/home/pasan/RIOT/dist/tools/esptools/esptool.py --chip esp8266 --port /dev/ttyUSB0 --baud 460800 --before default_reset write_flash -z --flash_mode dout   --flash_freq 26m    0x0000 /home/pasan/RIOT/cpu/esp8266/bin/bootloader.bin 0x8000 /home/pasan/RIOT/examples/gcoap/bin/esp8266-esp-12x/partitions.bin 0x10000 /home/pasan/RIOT/examples/gcoap/bin/esp8266-esp-12x/gcoap_example.elf.bin
+esptool.py v2.4.0
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+MAC: 8c:aa:b5:0d:e5:f0
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Flash params set to 0x0341
+Compressed 9344 bytes to 6292...
+Writing at 0x00000000... (100 %)Wrote 9344 bytes (6292 compressed) at 0x00000000 in 0.1 seconds (effective 516.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 84...
+Writing at 0x00008000... (100 %)Wrote 3072 bytes (84 compressed) at 0x00008000 in 0.0 seconds (effective 2498.6 kbit/s)...
+Hash of data verified.
+Compressed 375024 bytes to 257289...
+Writing at 0x00010000... (6 %)Writing at 0x00014000... (12 %)Writing at 0x00018000... (18 %)Writing at 0x0001c000... (25 %)Writing at 0x00020000... (31 %)Writing at 0x00024000... (37 %)Writing at 0x00028000... (43 %)Writing at 0x0002c000... (50 %)Writing at 0x00030000... (56 %)Writing at 0x00034000... (62 %)Writing at 0x00038000... (68 %)Writing at 0x0003c000... (75 %)Writing at 0x00040000... (81 %)Writing at 0x00044000... (87 %)Writing at 0x00048000... (93 %)Writing at 0x0004c000... (100 %)Wrote 375024 bytes (257289 compressed) at 0x00010000 in 6.2 seconds (effective 486.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+/home/pasan/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyUSB0" -b "115200" --set-rts 0 --set-dtr 0 
+2022-04-22 15:44:42,260 # Connect to serial port /dev/ttyUSB0
+Welcome to pyterm!
+Type '/exit' to exit.
+2022-04-22 15:44:43,301 # NETOPT_RX_END_IRQ not implemented by driver
+2022-04-22 15:44:43,305 # main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+2022-04-22 15:44:43,306 # gcoap example app
+2022-04-22 15:44:43,308 # All up, running the shell now
+> 2022-04-22 15:44:49,519 # ps
+2022-04-22 15:44:49,527 # 	pid | name                 | state    Q | pri | stack  ( used) ( free) | base addr  | current     
+2022-04-22 15:44:49,536 # 	  - | isr_stack            | -        - |   - |   2048 (  344) ( 1704) | 0x3ffe8000 | 0x3ffe8800
+2022-04-22 15:44:49,545 # 	  1 | ppT                  | bl rx    _ |   2 |   3640 (  700) ( 2940) | 0x3fff54d0 | 0x3fff61a0 
+2022-04-22 15:44:49,559 # 	  2 | pmT                  | bl rx    _ |   4 |   1080 (  340) (  740) | 0x3fff6350 | 0x3fff6650 
+2022-04-22 15:44:49,570 # 	  3 | rtT                  | bl rx    _ |   3 |   2104 (  572) ( 1532) | 0x3fff6790 | 0x3fff6e90 
+2022-04-22 15:44:49,579 # 	  4 | esp_events           | bl rx    _ |   5 |   2104 (  460) ( 1644) | 0x3fff7600 | 0x3fff7cd0 
+2022-04-22 15:44:49,588 # 	  5 | idle                 | pending  Q |  31 |   1024 (  248) (  776) | 0x3ffedf9c | 0x3ffee2c0 
+2022-04-22 15:44:49,594 # 	  6 | main                 | running  Q |  15 |   3072 ( 1532) ( 1540) | 0x3ffee39c | 0x3ffeeab0 
+2022-04-22 15:44:49,604 # 	  7 | 6lo                  | bl rx    _ |  11 |   1024 (  524) (  500) | 0x3fff2d70 | 0x3fff2fe0 
+2022-04-22 15:44:49,610 # 	  8 | ipv6                 | bl rx    _ |  12 |   1536 (  576) (  960) | 0x3fff094c | 0x3fff0d90 
+2022-04-22 15:44:49,618 # 	  9 | udp                  | bl rx    _ |  13 |   1024 (  432) (  592) | 0x3fff3174 | 0x3fff33e0 
+2022-04-22 15:44:49,627 # 	 10 | coap                 | bl anyfl _ |  14 |   1116 (  324) (  792) | 0x3fff04ec | 0x3fff0820 
+2022-04-22 15:44:49,635 # 	 11 | netif-esp-now        | bl rx    _ |  10 |   2560 (  820) ( 1740) | 0x3ffef7d8 | 0x3fff0030 
+2022-04-22 15:44:49,647 # 	    | SUM                  |            |     |  22332 ( 6872) (15460)
+> 2022-04-22 15:45:17,997 # help
+2022-04-22 15:45:18,002 # Command              Description
+2022-04-22 15:45:18,008 # ---------------------------------------
+2022-04-22 15:45:18,013 # coap                 CoAP example
+2022-04-22 15:45:18,015 # reboot               Reboot the node
+2022-04-22 15:45:18,018 # version              Prints current RIOT_VERSION
+2022-04-22 15:45:18,021 # pm                   interact with layered PM subsystem
+2022-04-22 15:45:18,025 # ps                   Prints information about running threads.
+2022-04-22 15:45:18,027 # ping6                Ping via ICMPv6
+2022-04-22 15:45:18,029 # ping                 Alias for ping6
+2022-04-22 15:45:18,034 # nib                  Configure neighbor information base
+2022-04-22 15:45:18,038 # ifconfig             Configure network interfaces
+2022-04-22 15:45:18,043 # 6ctx                 6LoWPAN context configuration tool
+> 2022-04-22 15:45:57,406 # ps
+2022-04-22 15:45:57,414 # 	pid | name                 | state    Q | pri | stack  ( used) ( free) | base addr  | current     
+2022-04-22 15:45:57,423 # 	  - | isr_stack            | -        - |   - |   2048 (  344) ( 1704) | 0x3ffe8000 | 0x3ffe8800
+2022-04-22 15:45:57,431 # 	  1 | ppT                  | bl rx    _ |   2 |   3640 (  700) ( 2940) | 0x3fff54d0 | 0x3fff61a0 
+2022-04-22 15:45:57,440 # 	  2 | pmT                  | bl rx    _ |   4 |   1080 (  340) (  740) | 0x3fff6350 | 0x3fff6650 
+2022-04-22 15:45:57,448 # 	  3 | rtT                  | bl rx    _ |   3 |   2104 (  572) ( 1532) | 0x3fff6790 | 0x3fff6e90 
+2022-04-22 15:45:57,457 # 	  4 | esp_events           | bl rx    _ |   5 |   2104 (  460) ( 1644) | 0x3fff7600 | 0x3fff7cd0 
+2022-04-22 15:45:57,465 # 	  5 | idle                 | pending  Q |  31 |   1024 (  248) (  776) | 0x3ffedf9c | 0x3ffee2c0 
+2022-04-22 15:45:57,477 # 	  6 | main                 | running  Q |  15 |   3072 ( 1532) ( 1540) | 0x3ffee39c | 0x3ffeedf0 
+2022-04-22 15:45:57,483 # 	  7 | 6lo                  | bl rx    _ |  11 |   1024 (  524) (  500) | 0x3fff2d70 | 0x3fff2fe0 
+2022-04-22 15:45:57,493 # 	  8 | ipv6                 | bl rx    _ |  12 |   1536 (  576) (  960) | 0x3fff094c | 0x3fff0d90 
+2022-04-22 15:45:57,500 # 	  9 | udp                  | bl rx    _ |  13 |   1024 (  432) (  592) | 0x3fff3174 | 0x3fff33e0 
+2022-04-22 15:45:57,509 # 	 10 | coap                 | bl anyfl _ |  14 |   1116 (  324) (  792) | 0x3fff04ec | 0x3fff0820 
+2022-04-22 15:45:57,517 # 	 11 | netif-esp-now        | bl rx    _ |  10 |   2560 (  892) ( 1668) | 0x3ffef7d8 | 0x3fff0030 
+2022-04-22 15:45:57,524 # 	    | SUM                  |            |     |  22332 ( 6944) (15388)
+> 2022-04-22 15:48:00,968 # coap
+2022-04-22 15:48:00,972 # usage: coap <get|post|put|ping|proxy|info>
+> 2022-04-22 15:48:29,332 # coap info
+2022-04-22 15:48:29,337 # CoAP server is listening on port 5683
+2022-04-22 15:48:29,340 #  CLI requests sent: 0
+2022-04-22 15:48:29,343 # CoAP open requests: 0
+2022-04-22 15:48:29,345 # Configured Proxy: None
+> 2022-04-22 15:51:12,507 # Exiting Pyterm
+Building application "gcoap_example" for "esp8266-esp-12x" with MCU "esp8266".
+
+"make" -C /home/pasan/RIOT/pkg/esp8266_sdk/ 
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/esp8266-esp-12x
+"make" -C /home/pasan/RIOT/boards/common/esp8266
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/esp8266
+"make" -C /home/pasan/RIOT/cpu/esp8266/freertos
+"make" -C /home/pasan/RIOT/cpu/esp8266/periph
+"make" -C /home/pasan/RIOT/cpu/esp8266/sdk
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/esp8266/source
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/spi_flash
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/util/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/src/crypto
+"make" -C /home/pasan/RIOT/cpu/esp_common
+"make" -C /home/pasan/RIOT/cpu/esp_common/esp-now
+"make" -C /home/pasan/RIOT/cpu/esp_common/freertos
+"make" -C /home/pasan/RIOT/cpu/esp_common/periph
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor/xtensa
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/mtd
+"make" -C /home/pasan/RIOT/drivers/netdev
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/div
+"make" -C /home/pasan/RIOT/sys/event
+"make" -C /home/pasan/RIOT/sys/evtimer
+"make" -C /home/pasan/RIOT/sys/fmt
+"make" -C /home/pasan/RIOT/sys/frac
+"make" -C /home/pasan/RIOT/sys/iolist
+"make" -C /home/pasan/RIOT/sys/isrpipe
+"make" -C /home/pasan/RIOT/sys/log
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/net/application_layer/gcoap
+"make" -C /home/pasan/RIOT/sys/net/application_layer/nanocoap
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/inet_csum
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/netopt
+"make" -C /home/pasan/RIOT/sys/net/gnrc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netapi
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/init_devs
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netreg
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6/echo
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/nib
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ndp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/ctx
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag/fb
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag/rb
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/iphc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/nd
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pkt
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf_static
+"make" -C /home/pasan/RIOT/sys/net/gnrc/sock
+"make" -C /home/pasan/RIOT/sys/net/gnrc/sock/udp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/transport_layer/udp
+"make" -C /home/pasan/RIOT/sys/net/link_layer/eui_provider
+"make" -C /home/pasan/RIOT/sys/net/link_layer/l2util
+"make" -C /home/pasan/RIOT/sys/net/netif
+"make" -C /home/pasan/RIOT/sys/net/netutils
+"make" -C /home/pasan/RIOT/sys/net/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/addr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/sixlowpan
+"make" -C /home/pasan/RIOT/sys/net/sock
+"make" -C /home/pasan/RIOT/sys/net/sock/async/event
+"make" -C /home/pasan/RIOT/sys/net/transport_layer/udp
+"make" -C /home/pasan/RIOT/sys/newlib_syscalls_default
+"make" -C /home/pasan/RIOT/sys/od
+"make" -C /home/pasan/RIOT/sys/posix/inet
+"make" -C /home/pasan/RIOT/sys/ps
+"make" -C /home/pasan/RIOT/sys/random
+"make" -C /home/pasan/RIOT/sys/shell
+"make" -C /home/pasan/RIOT/sys/shell/commands
+"make" -C /home/pasan/RIOT/sys/stdio_uart
+"make" -C /home/pasan/RIOT/sys/tsrb
+"make" -C /home/pasan/RIOT/sys/ztimer
+"make" -C /home/pasan/RIOT/sys/ztimer64
+esptool.py v2.4.0
+   text	   data	    bss	    dec	    hex	filename
+ 369032	   5904	  45672	 420608	  66b00	/home/pasan/RIOT/examples/gcoap/bin/esp8266-esp-12x/gcoap_example.elf
+/home/pasan/RIOT/dist/tools/esptools/esptool.py --chip esp8266 --port /dev/ttyUSB0 --baud 460800 --before default_reset write_flash -z --flash_mode dout   --flash_freq 26m    0x0000 /home/pasan/RIOT/cpu/esp8266/bin/bootloader.bin 0x8000 /home/pasan/RIOT/examples/gcoap/bin/esp8266-esp-12x/partitions.bin 0x10000 /home/pasan/RIOT/examples/gcoap/bin/esp8266-esp-12x/gcoap_example.elf.bin
+esptool.py v2.4.0
+Building application "gcoap_example" for "esp8266-esp-12x" with MCU "esp8266".
+
+"make" -C /home/pasan/RIOT/pkg/esp8266_sdk/ 
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/esp8266-esp-12x
+"make" -C /home/pasan/RIOT/boards/common/esp8266
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/esp8266
+"make" -C /home/pasan/RIOT/cpu/esp8266/freertos
+"make" -C /home/pasan/RIOT/cpu/esp8266/periph
+"make" -C /home/pasan/RIOT/cpu/esp8266/sdk
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/esp8266/source
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/spi_flash
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/util/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/src/crypto
+"make" -C /home/pasan/RIOT/cpu/esp_common
+"make" -C /home/pasan/RIOT/cpu/esp_common/esp-now
+"make" -C /home/pasan/RIOT/cpu/esp_common/freertos
+"make" -C /home/pasan/RIOT/cpu/esp_common/periph
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor/xtensa
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/mtd
+"make" -C /home/pasan/RIOT/drivers/netdev
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/div
+"make" -C /home/pasan/RIOT/sys/event
+"make" -C /home/pasan/RIOT/sys/evtimer
+"make" -C /home/pasan/RIOT/sys/fmt
+"make" -C /home/pasan/RIOT/sys/frac
+"make" -C /home/pasan/RIOT/sys/iolist
+"make" -C /home/pasan/RIOT/sys/isrpipe
+"make" -C /home/pasan/RIOT/sys/log
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/net/application_layer/gcoap
+"make" -C /home/pasan/RIOT/sys/net/application_layer/nanocoap
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/inet_csum
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/netopt
+"make" -C /home/pasan/RIOT/sys/net/gnrc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netapi
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/init_devs
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netreg
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6/echo
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/nib
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ndp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/ctx
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag/fb
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag/rb
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/iphc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/nd
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pkt
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf_static
+"make" -C /home/pasan/RIOT/sys/net/gnrc/sock
+"make" -C /home/pasan/RIOT/sys/net/gnrc/sock/udp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/transport_layer/udp
+"make" -C /home/pasan/RIOT/sys/net/link_layer/eui_provider
+"make" -C /home/pasan/RIOT/sys/net/link_layer/l2util
+"make" -C /home/pasan/RIOT/sys/net/netif
+"make" -C /home/pasan/RIOT/sys/net/netutils
+"make" -C /home/pasan/RIOT/sys/net/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/addr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/sixlowpan
+"make" -C /home/pasan/RIOT/sys/net/sock
+"make" -C /home/pasan/RIOT/sys/net/sock/async/event
+"make" -C /home/pasan/RIOT/sys/net/transport_layer/udp
+"make" -C /home/pasan/RIOT/sys/newlib_syscalls_default
+"make" -C /home/pasan/RIOT/sys/od
+"make" -C /home/pasan/RIOT/sys/posix/inet
+"make" -C /home/pasan/RIOT/sys/ps
+"make" -C /home/pasan/RIOT/sys/random
+"make" -C /home/pasan/RIOT/sys/shell
+"make" -C /home/pasan/RIOT/sys/shell/commands
+"make" -C /home/pasan/RIOT/sys/stdio_uart
+"make" -C /home/pasan/RIOT/sys/tsrb
+"make" -C /home/pasan/RIOT/sys/ztimer
+"make" -C /home/pasan/RIOT/sys/ztimer64
+esptool.py v2.4.0
+   text	   data	    bss	    dec	    hex	filename
+ 369032	   5904	  45672	 420608	  66b00	/home/pasan/RIOT/examples/gcoap/bin/esp8266-esp-12x/gcoap_example.elf
+/home/pasan/RIOT/dist/tools/esptools/esptool.py --chip esp8266 --port /dev/ttyUSB0 --baud 460800 --before default_reset write_flash -z --flash_mode dout   --flash_freq 26m    0x0000 /home/pasan/RIOT/cpu/esp8266/bin/bootloader.bin 0x8000 /home/pasan/RIOT/examples/gcoap/bin/esp8266-esp-12x/partitions.bin 0x10000 /home/pasan/RIOT/examples/gcoap/bin/esp8266-esp-12x/gcoap_example.elf.bin
+esptool.py v2.4.0
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+MAC: 8c:aa:b5:0d:e5:f0
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Flash params set to 0x0341
+Compressed 9344 bytes to 6292...
+Writing at 0x00000000... (100 %)Wrote 9344 bytes (6292 compressed) at 0x00000000 in 0.1 seconds (effective 511.2 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 84...
+Writing at 0x00008000... (100 %)Wrote 3072 bytes (84 compressed) at 0x00008000 in 0.0 seconds (effective 3723.2 kbit/s)...
+Hash of data verified.
+Compressed 375024 bytes to 257289...
+Writing at 0x00010000... (6 %)Writing at 0x00014000... (12 %)Writing at 0x00018000... (18 %)Writing at 0x0001c000... (25 %)Writing at 0x00020000... (31 %)Writing at 0x00024000... (37 %)Writing at 0x00028000... (43 %)Writing at 0x0002c000... (50 %)Writing at 0x00030000... (56 %)Writing at 0x00034000... (62 %)Writing at 0x00038000... (68 %)Writing at 0x0003c000... (75 %)Writing at 0x00040000... (81 %)Writing at 0x00044000... (87 %)Writing at 0x00048000... (93 %)Writing at 0x0004c000... (100 %)Wrote 375024 bytes (257289 compressed) at 0x00010000 in 5.8 seconds (effective 515.2 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+/home/pasan/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyUSB0" -b "115200" --set-rts 0 --set-dtr 0 
+2022-04-30 09:00:23,117 # Connect to serial port /dev/ttyUSB0
+Welcome to pyterm!
+Type '/exit' to exit.
+2022-04-30 09:00:24,164 # NETOPT_RX_END_IRQ not implemented by driver
+2022-04-30 09:00:24,167 # main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+2022-04-30 09:00:24,169 # gcoap example app
+2022-04-30 09:00:24,171 # All up, running the shell now
+> 2022-04-30 09:00:33,767 # ps
+2022-04-30 09:00:33,776 # 	pid | name                 | state    Q | pri | stack  ( used) ( free) | base addr  | current     
+2022-04-30 09:00:33,784 # 	  - | isr_stack            | -        - |   - |   2048 (  344) ( 1704) | 0x3ffe8000 | 0x3ffe8800
+2022-04-30 09:00:33,792 # 	  1 | ppT                  | bl rx    _ |   2 |   3640 (  700) ( 2940) | 0x3fff54d0 | 0x3fff61a0 
+2022-04-30 09:00:33,801 # 	  2 | pmT                  | bl rx    _ |   4 |   1080 (  340) (  740) | 0x3fff6350 | 0x3fff6650 
+2022-04-30 09:00:33,809 # 	  3 | rtT                  | bl rx    _ |   3 |   2104 (  572) ( 1532) | 0x3fff6790 | 0x3fff6e90 
+2022-04-30 09:00:33,818 # 	  4 | esp_events           | bl rx    _ |   5 |   2104 (  460) ( 1644) | 0x3fff7600 | 0x3fff7cd0 
+2022-04-30 09:00:33,829 # 	  5 | idle                 | pending  Q |  31 |   1024 (  248) (  776) | 0x3ffedf9c | 0x3ffee2c0 
+2022-04-30 09:00:33,838 # 	  6 | main                 | running  Q |  15 |   3072 ( 1532) ( 1540) | 0x3ffee39c | 0x3ffeeab0 
+2022-04-30 09:00:33,845 # 	  7 | 6lo                  | bl rx    _ |  11 |   1024 (  524) (  500) | 0x3fff2d70 | 0x3fff2fe0 
+2022-04-30 09:00:33,863 # 	  8 | ipv6                 | bl rx    _ |  12 |   1536 (  576) (  960) | 0x3fff094c | 0x3fff0d90 
+2022-04-30 09:00:33,869 # 	  9 | udp                  | bl rx    _ |  13 |   1024 (  432) (  592) | 0x3fff3174 | 0x3fff33e0 
+2022-04-30 09:00:33,875 # 	 10 | coap                 | bl anyfl _ |  14 |   1116 (  324) (  792) | 0x3fff04ec | 0x3fff0820 
+2022-04-30 09:00:33,880 # 	 11 | netif-esp-now        | bl rx    _ |  10 |   2560 (  892) ( 1668) | 0x3ffef7d8 | 0x3fff0030 
+2022-04-30 09:00:33,886 # 	    | SUM                  |            |     |  22332 ( 6944) (15388)
+> 2022-04-30 09:00:50,923 # ps
+2022-04-30 09:00:50,932 # 	pid | name                 | state    Q | pri | stack  ( used) ( free) | base addr  | current     
+2022-04-30 09:00:50,940 # 	  - | isr_stack            | -        - |   - |   2048 (  344) ( 1704) | 0x3ffe8000 | 0x3ffe8800
+2022-04-30 09:00:50,950 # 	  1 | ppT                  | bl rx    _ |   2 |   3640 (  700) ( 2940) | 0x3fff54d0 | 0x3fff61a0 
+2022-04-30 09:00:50,958 # 	  2 | pmT                  | bl rx    _ |   4 |   1080 (  340) (  740) | 0x3fff6350 | 0x3fff6650 
+2022-04-30 09:00:50,966 # 	  3 | rtT                  | bl rx    _ |   3 |   2104 (  572) ( 1532) | 0x3fff6790 | 0x3fff6e90 
+2022-04-30 09:00:50,978 # 	  4 | esp_events           | bl rx    _ |   5 |   2104 (  460) ( 1644) | 0x3fff7600 | 0x3fff7cd0 
+2022-04-30 09:00:50,983 # 	  5 | idle                 | pending  Q |  31 |   1024 (  248) (  776) | 0x3ffedf9c | 0x3ffee2c0 
+2022-04-30 09:00:50,992 # 	  6 | main                 | running  Q |  15 |   3072 ( 1532) ( 1540) | 0x3ffee39c | 0x3ffeeab0 
+2022-04-30 09:00:51,000 # 	  7 | 6lo                  | bl rx    _ |  11 |   1024 (  524) (  500) | 0x3fff2d70 | 0x3fff2fe0 
+2022-04-30 09:00:51,009 # 	  8 | ipv6                 | bl rx    _ |  12 |   1536 (  576) (  960) | 0x3fff094c | 0x3fff0d90 
+2022-04-30 09:00:51,018 # 	  9 | udp                  | bl rx    _ |  13 |   1024 (  432) (  592) | 0x3fff3174 | 0x3fff33e0 
+2022-04-30 09:00:51,027 # 	 10 | coap                 | bl anyfl _ |  14 |   1116 (  324) (  792) | 0x3fff04ec | 0x3fff0820 
+2022-04-30 09:00:51,035 # 	 11 | netif-esp-now        | bl rx    _ |  10 |   2560 (  892) ( 1668) | 0x3ffef7d8 | 0x3fff0030 
+2022-04-30 09:00:51,045 # 	    | SUM                  |            |     |  22332 ( 6944) (15388)
+> 2022-04-30 09:02:05,081 # Exiting Pyterm

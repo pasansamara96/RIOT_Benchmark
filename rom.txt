@@ -1,0 +1,208 @@
+make: Entering directory '/home/pasan/RIOT/examples/hello-world'
+Building application "hello-world" for "native" with MCU "native".
+
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/native
+"make" -C /home/pasan/RIOT/boards/native/drivers
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/native
+"make" -C /home/pasan/RIOT/cpu/native/periph
+"make" -C /home/pasan/RIOT/cpu/native/stdio_native
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+   text	   data	    bss	    dec	    hex	filename
+  27546	    544	  47796	  75886	  1286e	/home/pasan/RIOT/examples/hello-world/bin/native/hello-world.elf
+make: Leaving directory '/home/pasan/RIOT/examples/hello-world'
+make: Entering directory '/home/pasan/RIOT/examples/blinky'
+Building application "blinky" for "native" with MCU "native".
+
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/native
+"make" -C /home/pasan/RIOT/boards/native/drivers
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/native
+"make" -C /home/pasan/RIOT/cpu/native/periph
+"make" -C /home/pasan/RIOT/cpu/native/stdio_native
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/frac
+"make" -C /home/pasan/RIOT/sys/ztimer
+   text	   data	    bss	    dec	    hex	filename
+  33407	    624	  47824	  81855	  13fbf	/home/pasan/RIOT/examples/blinky/bin/native/blinky.elf
+make: Leaving directory '/home/pasan/RIOT/examples/blinky'
+make: Entering directory '/home/pasan/RIOT/examples/default'
+Building application "default" for "native" with MCU "native".
+
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/native
+"make" -C /home/pasan/RIOT/boards/native/drivers
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/native
+"make" -C /home/pasan/RIOT/cpu/native/cli_eui_provider
+"make" -C /home/pasan/RIOT/cpu/native/netdev_tap
+"make" -C /home/pasan/RIOT/cpu/native/periph
+"make" -C /home/pasan/RIOT/cpu/native/stdio_native
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/netdev
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/drivers/saul
+"make" -C /home/pasan/RIOT/drivers/saul/init_devs
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/fmt
+"make" -C /home/pasan/RIOT/sys/frac
+"make" -C /home/pasan/RIOT/sys/iolist
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/net/gnrc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netapi
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/ethernet
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/init_devs
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netreg
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pkt
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf_static
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktdump
+"make" -C /home/pasan/RIOT/sys/net/link_layer/eui_provider
+"make" -C /home/pasan/RIOT/sys/net/link_layer/l2util
+"make" -C /home/pasan/RIOT/sys/net/netif
+"make" -C /home/pasan/RIOT/sys/od
+"make" -C /home/pasan/RIOT/sys/phydat
+"make" -C /home/pasan/RIOT/sys/ps
+"make" -C /home/pasan/RIOT/sys/rtc_utils
+"make" -C /home/pasan/RIOT/sys/saul_reg
+"make" -C /home/pasan/RIOT/sys/shell
+"make" -C /home/pasan/RIOT/sys/shell/commands
+"make" -C /home/pasan/RIOT/sys/ztimer
+   text	   data	    bss	    dec	    hex	filename
+  84447	  14046	  72232	 170725	  29ae5	/home/pasan/RIOT/examples/default/bin/native/default.elf
+make: Leaving directory '/home/pasan/RIOT/examples/default'
+make: Entering directory '/home/pasan/RIOT/examples/gnrc_minimal'
+Building application "gnrc_minimal" for "native" with MCU "native".
+
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/native
+"make" -C /home/pasan/RIOT/boards/native/drivers
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/native
+"make" -C /home/pasan/RIOT/cpu/native/cli_eui_provider
+"make" -C /home/pasan/RIOT/cpu/native/netdev_tap
+"make" -C /home/pasan/RIOT/cpu/native/periph
+"make" -C /home/pasan/RIOT/cpu/native/stdio_native
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/netdev
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/div
+"make" -C /home/pasan/RIOT/sys/evtimer
+"make" -C /home/pasan/RIOT/sys/fmt
+"make" -C /home/pasan/RIOT/sys/frac
+"make" -C /home/pasan/RIOT/sys/iolist
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/inet_csum
+"make" -C /home/pasan/RIOT/sys/net/gnrc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netapi
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/ethernet
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/init_devs
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netreg
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6/echo
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/nib
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ndp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pkt
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf_static
+"make" -C /home/pasan/RIOT/sys/net/link_layer/eui_provider
+"make" -C /home/pasan/RIOT/sys/net/link_layer/l2util
+"make" -C /home/pasan/RIOT/sys/net/netif
+"make" -C /home/pasan/RIOT/sys/net/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/addr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/random
+"make" -C /home/pasan/RIOT/sys/ztimer
+"make" -C /home/pasan/RIOT/sys/ztimer64
+   text	   data	    bss	    dec	    hex	filename
+  92418	    776	  68456	 161650	  27772	/home/pasan/RIOT/examples/gnrc_minimal/bin/native/gnrc_minimal.elf
+make: Leaving directory '/home/pasan/RIOT/examples/gnrc_minimal'
+make: Entering directory '/home/pasan/RIOT/examples/gcoap'
+Building application "gcoap_example" for "native" with MCU "native".
+
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/native
+"make" -C /home/pasan/RIOT/boards/native/drivers
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/native
+"make" -C /home/pasan/RIOT/cpu/native/cli_eui_provider
+"make" -C /home/pasan/RIOT/cpu/native/netdev_tap
+"make" -C /home/pasan/RIOT/cpu/native/periph
+"make" -C /home/pasan/RIOT/cpu/native/stdio_native
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/netdev
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/div
+"make" -C /home/pasan/RIOT/sys/event
+"make" -C /home/pasan/RIOT/sys/evtimer
+"make" -C /home/pasan/RIOT/sys/fmt
+"make" -C /home/pasan/RIOT/sys/frac
+"make" -C /home/pasan/RIOT/sys/iolist
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/net/application_layer/gcoap
+"make" -C /home/pasan/RIOT/sys/net/application_layer/nanocoap
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/inet_csum
+"make" -C /home/pasan/RIOT/sys/net/gnrc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netapi
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/ethernet
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/init_devs
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netreg
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6/echo
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/nib
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ndp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pkt
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf_static
+"make" -C /home/pasan/RIOT/sys/net/gnrc/sock
+"make" -C /home/pasan/RIOT/sys/net/gnrc/sock/udp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/transport_layer/udp
+"make" -C /home/pasan/RIOT/sys/net/link_layer/eui_provider
+"make" -C /home/pasan/RIOT/sys/net/link_layer/l2util
+"make" -C /home/pasan/RIOT/sys/net/netif
+"make" -C /home/pasan/RIOT/sys/net/netutils
+"make" -C /home/pasan/RIOT/sys/net/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/addr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/sock
+"make" -C /home/pasan/RIOT/sys/net/sock/async/event
+"make" -C /home/pasan/RIOT/sys/net/transport_layer/udp
+"make" -C /home/pasan/RIOT/sys/od
+"make" -C /home/pasan/RIOT/sys/posix/inet
+"make" -C /home/pasan/RIOT/sys/ps
+"make" -C /home/pasan/RIOT/sys/random
+"make" -C /home/pasan/RIOT/sys/shell
+"make" -C /home/pasan/RIOT/sys/shell/commands
+"make" -C /home/pasan/RIOT/sys/ztimer
+"make" -C /home/pasan/RIOT/sys/ztimer64
+   text	   data	    bss	    dec	    hex	filename
+ 179956	  16359	  90312	 286627	  45fa3	/home/pasan/RIOT/examples/gcoap/bin/native/gcoap_example.elf
+make: Leaving directory '/home/pasan/RIOT/examples/gcoap'

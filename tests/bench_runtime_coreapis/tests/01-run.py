@@ -7,7 +7,8 @@
 # directory for more details.
 
 import sys
-from testrunner import run
+import testrunner
+# from testrunner import run
 
 
 # The default timeout is not enough for this test on some of the slower boards

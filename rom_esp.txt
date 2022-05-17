@@ -1,0 +1,320 @@
+make: Entering directory '/home/pasan/RIOT/examples/default'
+Building application "default" for "esp8266-esp-12x" with MCU "esp8266".
+
+"make" -C /home/pasan/RIOT/pkg/esp8266_sdk/ 
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/esp8266-esp-12x
+"make" -C /home/pasan/RIOT/boards/common/esp8266
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/esp8266
+"make" -C /home/pasan/RIOT/cpu/esp8266/freertos
+"make" -C /home/pasan/RIOT/cpu/esp8266/periph
+"make" -C /home/pasan/RIOT/cpu/esp8266/sdk
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/esp8266/source
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/spi_flash
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/util/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/src/crypto
+"make" -C /home/pasan/RIOT/cpu/esp_common
+"make" -C /home/pasan/RIOT/cpu/esp_common/freertos
+"make" -C /home/pasan/RIOT/cpu/esp_common/periph
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor/xtensa
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/mtd
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/drivers/rtt_rtc
+"make" -C /home/pasan/RIOT/drivers/saul
+"make" -C /home/pasan/RIOT/drivers/saul/init_devs
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/div
+"make" -C /home/pasan/RIOT/sys/fmt
+"make" -C /home/pasan/RIOT/sys/isrpipe
+"make" -C /home/pasan/RIOT/sys/log
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/newlib_syscalls_default
+"make" -C /home/pasan/RIOT/sys/phydat
+"make" -C /home/pasan/RIOT/sys/ps
+"make" -C /home/pasan/RIOT/sys/random
+"make" -C /home/pasan/RIOT/sys/rtc_utils
+"make" -C /home/pasan/RIOT/sys/saul_reg
+"make" -C /home/pasan/RIOT/sys/shell
+"make" -C /home/pasan/RIOT/sys/shell/commands
+"make" -C /home/pasan/RIOT/sys/stdio_uart
+"make" -C /home/pasan/RIOT/sys/tsrb
+esptool.py v2.4.0
+   text	   data	    bss	    dec	    hex	filename
+ 288576	   5168	  28720	 322464	  4eba0	/home/pasan/RIOT/examples/default/bin/esp8266-esp-12x/default.elf
+make: Leaving directory '/home/pasan/RIOT/examples/default'
+make: Entering directory '/home/pasan/RIOT/examples/hello-world'
+Building application "hello-world" for "esp8266-esp-12x" with MCU "esp8266".
+
+"make" -C /home/pasan/RIOT/pkg/esp8266_sdk/ 
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/esp8266-esp-12x
+"make" -C /home/pasan/RIOT/boards/common/esp8266
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/esp8266
+"make" -C /home/pasan/RIOT/cpu/esp8266/freertos
+"make" -C /home/pasan/RIOT/cpu/esp8266/periph
+"make" -C /home/pasan/RIOT/cpu/esp8266/sdk
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/esp8266/source
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/spi_flash
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/util/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/src/crypto
+"make" -C /home/pasan/RIOT/cpu/esp_common
+"make" -C /home/pasan/RIOT/cpu/esp_common/freertos
+"make" -C /home/pasan/RIOT/cpu/esp_common/periph
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor/xtensa
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/mtd
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/div
+"make" -C /home/pasan/RIOT/sys/log
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/newlib_syscalls_default
+"make" -C /home/pasan/RIOT/sys/ps
+"make" -C /home/pasan/RIOT/sys/random
+"make" -C /home/pasan/RIOT/sys/stdio_uart
+esptool.py v2.4.0
+   text	   data	    bss	    dec	    hex	filename
+ 276048	   5148	  28584	 309780	  4ba14	/home/pasan/RIOT/examples/hello-world/bin/esp8266-esp-12x/hello-world.elf
+make: Leaving directory '/home/pasan/RIOT/examples/hello-world'
+make: Entering directory '/home/pasan/RIOT/examples/gcoap'
+Building application "gcoap_example" for "esp8266-esp-12x" with MCU "esp8266".
+
+"make" -C /home/pasan/RIOT/pkg/esp8266_sdk/ 
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/esp8266-esp-12x
+"make" -C /home/pasan/RIOT/boards/common/esp8266
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/esp8266
+"make" -C /home/pasan/RIOT/cpu/esp8266/freertos
+"make" -C /home/pasan/RIOT/cpu/esp8266/periph
+"make" -C /home/pasan/RIOT/cpu/esp8266/sdk
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/esp8266/source
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/spi_flash
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/util/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/src/crypto
+"make" -C /home/pasan/RIOT/cpu/esp_common
+"make" -C /home/pasan/RIOT/cpu/esp_common/esp-now
+"make" -C /home/pasan/RIOT/cpu/esp_common/freertos
+"make" -C /home/pasan/RIOT/cpu/esp_common/periph
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor/xtensa
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/mtd
+"make" -C /home/pasan/RIOT/drivers/netdev
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/div
+"make" -C /home/pasan/RIOT/sys/event
+"make" -C /home/pasan/RIOT/sys/evtimer
+"make" -C /home/pasan/RIOT/sys/fmt
+"make" -C /home/pasan/RIOT/sys/frac
+"make" -C /home/pasan/RIOT/sys/iolist
+"make" -C /home/pasan/RIOT/sys/isrpipe
+"make" -C /home/pasan/RIOT/sys/log
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/net/application_layer/gcoap
+"make" -C /home/pasan/RIOT/sys/net/application_layer/nanocoap
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/inet_csum
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/netopt
+"make" -C /home/pasan/RIOT/sys/net/gnrc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netapi
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/init_devs
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netreg
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6/echo
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/nib
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ndp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/ctx
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag/fb
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/frag/rb
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/iphc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan/nd
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pkt
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf_static
+"make" -C /home/pasan/RIOT/sys/net/gnrc/sock
+"make" -C /home/pasan/RIOT/sys/net/gnrc/sock/udp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/transport_layer/udp
+"make" -C /home/pasan/RIOT/sys/net/link_layer/eui_provider
+"make" -C /home/pasan/RIOT/sys/net/link_layer/l2util
+"make" -C /home/pasan/RIOT/sys/net/netif
+"make" -C /home/pasan/RIOT/sys/net/netutils
+"make" -C /home/pasan/RIOT/sys/net/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/addr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/sixlowpan
+"make" -C /home/pasan/RIOT/sys/net/sock
+"make" -C /home/pasan/RIOT/sys/net/sock/async/event
+"make" -C /home/pasan/RIOT/sys/net/transport_layer/udp
+"make" -C /home/pasan/RIOT/sys/newlib_syscalls_default
+"make" -C /home/pasan/RIOT/sys/od
+"make" -C /home/pasan/RIOT/sys/posix/inet
+"make" -C /home/pasan/RIOT/sys/ps
+"make" -C /home/pasan/RIOT/sys/random
+"make" -C /home/pasan/RIOT/sys/shell
+"make" -C /home/pasan/RIOT/sys/shell/commands
+"make" -C /home/pasan/RIOT/sys/stdio_uart
+"make" -C /home/pasan/RIOT/sys/tsrb
+"make" -C /home/pasan/RIOT/sys/ztimer
+"make" -C /home/pasan/RIOT/sys/ztimer64
+esptool.py v2.4.0
+   text	   data	    bss	    dec	    hex	filename
+ 369032	   5904	  45672	 420608	  66b00	/home/pasan/RIOT/examples/gcoap/bin/esp8266-esp-12x/gcoap_example.elf
+make: Leaving directory '/home/pasan/RIOT/examples/gcoap'
+make: Entering directory '/home/pasan/RIOT/examples/gnrc_minimal'
+Building application "gnrc_minimal" for "esp8266-esp-12x" with MCU "esp8266".
+
+"make" -C /home/pasan/RIOT/pkg/esp8266_sdk/ 
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/esp8266-esp-12x
+"make" -C /home/pasan/RIOT/boards/common/esp8266
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/esp8266
+"make" -C /home/pasan/RIOT/cpu/esp8266/freertos
+"make" -C /home/pasan/RIOT/cpu/esp8266/periph
+"make" -C /home/pasan/RIOT/cpu/esp8266/sdk
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/esp8266/source
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/spi_flash
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/util/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/src/crypto
+"make" -C /home/pasan/RIOT/cpu/esp_common
+"make" -C /home/pasan/RIOT/cpu/esp_common/esp-now
+"make" -C /home/pasan/RIOT/cpu/esp_common/freertos
+"make" -C /home/pasan/RIOT/cpu/esp_common/periph
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor/xtensa
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/mtd
+"make" -C /home/pasan/RIOT/drivers/netdev
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/div
+"make" -C /home/pasan/RIOT/sys/evtimer
+"make" -C /home/pasan/RIOT/sys/fmt
+"make" -C /home/pasan/RIOT/sys/frac
+"make" -C /home/pasan/RIOT/sys/log
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/inet_csum
+"make" -C /home/pasan/RIOT/sys/net/crosslayer/netopt
+"make" -C /home/pasan/RIOT/sys/net/gnrc
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netapi
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netif/init_devs
+"make" -C /home/pasan/RIOT/sys/net/gnrc/netreg
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/icmpv6/echo
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ipv6/nib
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/ndp
+"make" -C /home/pasan/RIOT/sys/net/gnrc/network_layer/sixlowpan
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pkt
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf
+"make" -C /home/pasan/RIOT/sys/net/gnrc/pktbuf_static
+"make" -C /home/pasan/RIOT/sys/net/link_layer/eui_provider
+"make" -C /home/pasan/RIOT/sys/net/link_layer/l2util
+"make" -C /home/pasan/RIOT/sys/net/netif
+"make" -C /home/pasan/RIOT/sys/net/network_layer/icmpv6
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/addr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/ipv6/hdr
+"make" -C /home/pasan/RIOT/sys/net/network_layer/sixlowpan
+"make" -C /home/pasan/RIOT/sys/newlib_syscalls_default
+"make" -C /home/pasan/RIOT/sys/ps
+"make" -C /home/pasan/RIOT/sys/random
+"make" -C /home/pasan/RIOT/sys/stdio_uart
+"make" -C /home/pasan/RIOT/sys/ztimer
+"make" -C /home/pasan/RIOT/sys/ztimer64
+esptool.py v2.4.0
+   text	   data	    bss	    dec	    hex	filename
+ 308720	   5036	  35688	 349444	  55504	/home/pasan/RIOT/examples/gnrc_minimal/bin/esp8266-esp-12x/gnrc_minimal.elf
+make: Leaving directory '/home/pasan/RIOT/examples/gnrc_minimal'
+make: Entering directory '/home/pasan/RIOT/examples/lorawan'
+WARNING! The following modules conflict with 'ztimer_periph_rtt': 'rtt_rtc'
+To disable ztimer periph_rtt auto-inclusion add 'ztimer_no_periph_rtt' to 'USEMODULE'
+Building application "lorawan" for "esp8266-esp-12x" with MCU "esp8266".
+
+[INFO] cloning semtech-loramac
+"make" -C /home/pasan/RIOT/pkg/esp8266_sdk/ 
+"make" -C /home/pasan/RIOT/pkg/semtech-loramac/ 
+[INFO] cloning semtech-loramac
+make: Leaving directory '/home/pasan/RIOT/examples/lorawan'
+make: Entering directory '/home/pasan/RIOT/examples/blinky'
+Building application "blinky" for "esp8266-esp-12x" with MCU "esp8266".
+
+"make" -C /home/pasan/RIOT/pkg/esp8266_sdk/ 
+"make" -C /home/pasan/RIOT/boards/common/init
+"make" -C /home/pasan/RIOT/boards/esp8266-esp-12x
+"make" -C /home/pasan/RIOT/boards/common/esp8266
+"make" -C /home/pasan/RIOT/core
+"make" -C /home/pasan/RIOT/core/lib
+"make" -C /home/pasan/RIOT/cpu/esp8266
+"make" -C /home/pasan/RIOT/cpu/esp8266/freertos
+"make" -C /home/pasan/RIOT/cpu/esp8266/periph
+"make" -C /home/pasan/RIOT/cpu/esp8266/sdk
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/esp8266/source
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/spi_flash
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/util/src
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant
+"make" -C /home/pasan/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/src/crypto
+"make" -C /home/pasan/RIOT/cpu/esp_common
+"make" -C /home/pasan/RIOT/cpu/esp_common/freertos
+"make" -C /home/pasan/RIOT/cpu/esp_common/periph
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor
+"make" -C /home/pasan/RIOT/cpu/esp_common/vendor/xtensa
+"make" -C /home/pasan/RIOT/drivers
+"make" -C /home/pasan/RIOT/drivers/mtd
+"make" -C /home/pasan/RIOT/drivers/periph_common
+"make" -C /home/pasan/RIOT/sys
+"make" -C /home/pasan/RIOT/sys/auto_init
+"make" -C /home/pasan/RIOT/sys/div
+"make" -C /home/pasan/RIOT/sys/frac
+"make" -C /home/pasan/RIOT/sys/log
+"make" -C /home/pasan/RIOT/sys/luid
+"make" -C /home/pasan/RIOT/sys/newlib_syscalls_default
+"make" -C /home/pasan/RIOT/sys/ps
+"make" -C /home/pasan/RIOT/sys/random
+"make" -C /home/pasan/RIOT/sys/stdio_uart
+"make" -C /home/pasan/RIOT/sys/ztimer
+esptool.py v2.4.0
+   text	   data	    bss	    dec	    hex	filename
+ 277964	   5204	  28632	 311800	  4c1f8	/home/pasan/RIOT/examples/blinky/bin/esp8266-esp-12x/blinky.elf
+make: Leaving directory '/home/pasan/RIOT/examples/blinky'

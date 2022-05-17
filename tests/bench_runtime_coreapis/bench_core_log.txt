@@ -1,0 +1,324 @@
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       362us  ---   0.000us per call  ---  2762430939 calls per sec
+
+             mutex_init():       816us  ---   0.000us per call  ---  1225490196 calls per sec
+        mutex lock/unlock:    822883us  ---   0.822us per call  ---    1215239 calls per sec
+
+       thread_flags_set():    394872us  ---   0.394us per call  ---    2532466 calls per sec
+     thread_flags_clear():    393509us  ---   0.393us per call  ---    2541237 calls per sec
+thread flags set/wait any:   1176284us  ---   1.176us per call  ---     850134 calls per sec
+thread flags set/wait all:   1201007us  ---   1.201us per call  ---     832634 calls per sec
+thread flags set/wait one:   1181606us  ---   1.181us per call  ---     846305 calls per sec
+
+        msg_try_receive():    392021us  ---   0.392us per call  ---    2550883 calls per sec
+              msg_avail():      4880us  ---   0.004us per call  ---  204918032 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       444us  ---   0.000us per call  ---  2252252252 calls per sec
+
+             mutex_init():       499us  ---   0.000us per call  ---  2004008016 calls per sec
+        mutex lock/unlock:    831909us  ---   0.831us per call  ---    1202054 calls per sec
+
+       thread_flags_set():    391019us  ---   0.391us per call  ---    2557420 calls per sec
+     thread_flags_clear():    411359us  ---   0.411us per call  ---    2430966 calls per sec
+thread flags set/wait any:   1160412us  ---   1.160us per call  ---     861762 calls per sec
+thread flags set/wait all:   1153398us  ---   1.153us per call  ---     867003 calls per sec
+thread flags set/wait one:   1230623us  ---   1.230us per call  ---     812596 calls per sec
+
+        msg_try_receive():    398286us  ---   0.398us per call  ---    2510758 calls per sec
+              msg_avail():      4747us  ---   0.004us per call  ---  210659363 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       551us  ---   0.000us per call  ---  1814882032 calls per sec
+
+             mutex_init():       692us  ---   0.000us per call  ---  1445086705 calls per sec
+        mutex lock/unlock:    792288us  ---   0.792us per call  ---    1262167 calls per sec
+
+       thread_flags_set():    396875us  ---   0.396us per call  ---    2519685 calls per sec
+     thread_flags_clear():    409703us  ---   0.409us per call  ---    2440792 calls per sec
+thread flags set/wait any:   1170726us  ---   1.170us per call  ---     854170 calls per sec
+thread flags set/wait all:   1116435us  ---   1.116us per call  ---     895708 calls per sec
+thread flags set/wait one:   1106593us  ---   1.106us per call  ---     903674 calls per sec
+
+        msg_try_receive():    370477us  ---   0.370us per call  ---    2699222 calls per sec
+              msg_avail():      4747us  ---   0.004us per call  ---  210659363 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       438us  ---   0.000us per call  ---  2283105022 calls per sec
+
+             mutex_init():       482us  ---   0.000us per call  ---  2074688796 calls per sec
+        mutex lock/unlock:    765116us  ---   0.765us per call  ---    1306991 calls per sec
+
+       thread_flags_set():    440561us  ---   0.440us per call  ---    2269833 calls per sec
+     thread_flags_clear():    406189us  ---   0.406us per call  ---    2461908 calls per sec
+thread flags set/wait any:   1229917us  ---   1.229us per call  ---     813062 calls per sec
+thread flags set/wait all:   1157790us  ---   1.157us per call  ---     863714 calls per sec
+thread flags set/wait one:   1141172us  ---   1.141us per call  ---     876292 calls per sec
+
+        msg_try_receive():    374523us  ---   0.374us per call  ---    2670062 calls per sec
+              msg_avail():      4771us  ---   0.004us per call  ---  209599664 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       361us  ---   0.000us per call  ---  2770083102 calls per sec
+
+             mutex_init():       523us  ---   0.000us per call  ---  1912045889 calls per sec
+        mutex lock/unlock:    820604us  ---   0.820us per call  ---    1218614 calls per sec
+
+       thread_flags_set():    389681us  ---   0.389us per call  ---    2566201 calls per sec
+     thread_flags_clear():    380016us  ---   0.380us per call  ---    2631468 calls per sec
+thread flags set/wait any:   1184118us  ---   1.184us per call  ---     844510 calls per sec
+thread flags set/wait all:   1188291us  ---   1.188us per call  ---     841544 calls per sec
+thread flags set/wait one:   1164903us  ---   1.164us per call  ---     858440 calls per sec
+
+        msg_try_receive():    376594us  ---   0.376us per call  ---    2655379 calls per sec
+              msg_avail():      4803us  ---   0.004us per call  ---  208203206 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       509us  ---   0.000us per call  ---  1964636542 calls per sec
+
+             mutex_init():       615us  ---   0.000us per call  ---  1626016260 calls per sec
+        mutex lock/unlock:    780809us  ---   0.780us per call  ---    1280722 calls per sec
+
+       thread_flags_set():    377891us  ---   0.377us per call  ---    2646265 calls per sec
+     thread_flags_clear():    371942us  ---   0.371us per call  ---    2688591 calls per sec
+thread flags set/wait any:   1194225us  ---   1.194us per call  ---     837363 calls per sec
+thread flags set/wait all:   1106488us  ---   1.106us per call  ---     903760 calls per sec
+thread flags set/wait one:   1112251us  ---   1.112us per call  ---     899077 calls per sec
+
+        msg_try_receive():    378368us  ---   0.378us per call  ---    2642929 calls per sec
+              msg_avail():      4729us  ---   0.004us per call  ---  211461196 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       362us  ---   0.000us per call  ---  2762430939 calls per sec
+
+             mutex_init():       513us  ---   0.000us per call  ---  1949317738 calls per sec
+        mutex lock/unlock:    795594us  ---   0.795us per call  ---    1256922 calls per sec
+
+       thread_flags_set():    374603us  ---   0.374us per call  ---    2669492 calls per sec
+     thread_flags_clear():    411964us  ---   0.411us per call  ---    2427396 calls per sec
+thread flags set/wait any:   1158557us  ---   1.158us per call  ---     863142 calls per sec
+thread flags set/wait all:   1140540us  ---   1.140us per call  ---     876777 calls per sec
+thread flags set/wait one:   1112653us  ---   1.112us per call  ---     898752 calls per sec
+
+        msg_try_receive():    370490us  ---   0.370us per call  ---    2699128 calls per sec
+              msg_avail():      4766us  ---   0.004us per call  ---  209819555 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       593us  ---   0.000us per call  ---  1686340640 calls per sec
+
+             mutex_init():       628us  ---   0.000us per call  ---  1592356687 calls per sec
+        mutex lock/unlock:    847645us  ---   0.847us per call  ---    1179739 calls per sec
+
+       thread_flags_set():    377350us  ---   0.377us per call  ---    2650059 calls per sec
+     thread_flags_clear():    376221us  ---   0.376us per call  ---    2658012 calls per sec
+thread flags set/wait any:   1185447us  ---   1.185us per call  ---     843563 calls per sec
+thread flags set/wait all:   1154356us  ---   1.154us per call  ---     866283 calls per sec
+thread flags set/wait one:   1273802us  ---   1.273us per call  ---     785051 calls per sec
+
+        msg_try_receive():    394993us  ---   0.394us per call  ---    2531690 calls per sec
+              msg_avail():      4799us  ---   0.004us per call  ---  208376745 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       639us  ---   0.000us per call  ---  1564945226 calls per sec
+
+             mutex_init():       393us  ---   0.000us per call  ---  2544529262 calls per sec
+        mutex lock/unlock:    835374us  ---   0.835us per call  ---    1197068 calls per sec
+
+       thread_flags_set():    390935us  ---   0.390us per call  ---    2557969 calls per sec
+     thread_flags_clear():    376380us  ---   0.376us per call  ---    2656889 calls per sec
+thread flags set/wait any:   1242920us  ---   1.242us per call  ---     804557 calls per sec
+thread flags set/wait all:   1136296us  ---   1.136us per call  ---     880052 calls per sec
+thread flags set/wait one:   1123579us  ---   1.123us per call  ---     890013 calls per sec
+
+        msg_try_receive():    379836us  ---   0.379us per call  ---    2632715 calls per sec
+              msg_avail():      7219us  ---   0.007us per call  ---  138523341 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       361us  ---   0.000us per call  ---  2770083102 calls per sec
+
+             mutex_init():       620us  ---   0.000us per call  ---  1612903225 calls per sec
+        mutex lock/unlock:    820631us  ---   0.820us per call  ---    1218574 calls per sec
+
+       thread_flags_set():    402053us  ---   0.402us per call  ---    2487234 calls per sec
+     thread_flags_clear():    387518us  ---   0.387us per call  ---    2580525 calls per sec
+thread flags set/wait any:   1233076us  ---   1.233us per call  ---     810980 calls per sec
+thread flags set/wait all:   1181972us  ---   1.181us per call  ---     846043 calls per sec
+thread flags set/wait one:   1122666us  ---   1.122us per call  ---     890736 calls per sec
+
+        msg_try_receive():    392401us  ---   0.392us per call  ---    2548413 calls per sec
+              msg_avail():      4805us  ---   0.004us per call  ---  208116545 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       422us  ---   0.000us per call  ---  2369668246 calls per sec
+
+             mutex_init():       566us  ---   0.000us per call  ---  1766784452 calls per sec
+        mutex lock/unlock:    780395us  ---   0.780us per call  ---    1281402 calls per sec
+
+       thread_flags_set():    373937us  ---   0.373us per call  ---    2674247 calls per sec
+     thread_flags_clear():    367249us  ---   0.367us per call  ---    2722948 calls per sec
+thread flags set/wait any:   1213855us  ---   1.213us per call  ---     823821 calls per sec
+thread flags set/wait all:   1140197us  ---   1.140us per call  ---     877041 calls per sec
+thread flags set/wait one:   1173689us  ---   1.173us per call  ---     852014 calls per sec
+
+        msg_try_receive():    445354us  ---   0.445us per call  ---    2245404 calls per sec
+              msg_avail():      4830us  ---   0.004us per call  ---  207039337 calls per sec
+
+[SUCCESS]
+
+native: exiting
+/home/pasan/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf /dev/ttyACM0 
+RIOT native interrupts/signals initialized.
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+Help: Press s to start test, r to print it is ready
+START
+main(): This is RIOT! (Version: 2022.04-devel-892-g75010)
+Runtime of Selected Core API functions
+
+                 nop loop:       343us  ---   0.000us per call  ---  2915451895 calls per sec
+
+             mutex_init():       792us  ---   0.000us per call  ---  1262626262 calls per sec
+        mutex lock/unlock:    787870us  ---   0.787us per call  ---    1269244 calls per sec
+
+       thread_flags_set():    382076us  ---   0.382us per call  ---    2617280 calls per sec
+     thread_flags_clear():    384308us  ---   0.384us per call  ---    2602079 calls per sec
+thread flags set/wait any:   1192680us  ---   1.192us per call  ---     838447 calls per sec
+thread flags set/wait all:   1137874us  ---   1.137us per call  ---     878831 calls per sec
+thread flags set/wait one:   1114647us  ---   1.114us per call  ---     897145 calls per sec
+
+        msg_try_receive():    374487us  ---   0.374us per call  ---    2670319 calls per sec
+              msg_avail():      4845us  ---   0.004us per call  ---  206398348 calls per sec
+
+[SUCCESS]
+
+native: exiting
